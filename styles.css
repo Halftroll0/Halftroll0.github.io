@@ -2,12 +2,24 @@
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: #22282c;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*Heading Rules*/
+h1{
+    font-size: 2rem;
+    color: #68925b;
+}
+h2{
+    font-size: 1.8rem;
+    color: #569d79;
 }
 
 #navbar {
