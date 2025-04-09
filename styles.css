@@ -2,10 +2,26 @@
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
 }
 
+/*Navbar formatting*/
+#navbar {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    border-radius: 5px;
+}
+
+#navbar > li {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
+
+/*Start of body formatting*/
 body {
     background-color: #22282c;
     padding: 5px;
@@ -20,17 +36,4 @@ h1{
 h2{
     font-size: 1.8rem;
     color: #569d79;
-}
-
-#navbar {
-    background-color: black;
-    height: 30px;
-    width: 100%;
-    display: inline-block;
-    text-align: right;
-}
-
-#navbar > li {
-    display: inline-block;
-    padding: 5px 5px 5px 5px;
 }
